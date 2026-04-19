@@ -1,9 +1,14 @@
 [project]
 name = "pykka-heartbeat"
 version = "0.1.0"
-description = "Add your description here"
+description = "A Pykka actor base class with periodic tick and typed ActorRef"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
     "pykka>=4.4.2",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.3",
 ]

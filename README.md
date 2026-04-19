@@ -55,13 +55,13 @@ actor.stop()
 ## Running the demo
 
 ```
-python main.py
+uv run main.py
 ```
 
 ## Running the tests
 
 ```
-python -m pytest test_tick_actor.py -v
+uv run pytest test_tick_actor.py -v
 ```
 
 ## Requirements
